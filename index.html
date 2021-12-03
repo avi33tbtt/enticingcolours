@@ -56,8 +56,6 @@
           geometry="primitive: plane; width: 1.5; height: 0.81"
           material="src: #ponyo; shader: flat; transparent: true"
           position="0 0.495 0.002"
-          animation__scale="property: scale; to: 3.2 3.2 3.2; dur: 200; startEvents: mouseenter"
-          animation__scale_reverse="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"
          ></a-mixin>
       </a-assets>
 
@@ -120,6 +118,9 @@
             text="baseline: top; shader: msdf; anchor: left; font: https://cdn.aframe.io/examples/ui/Viga-Regular.json; color: white; value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></a-entity>
         </a-entity>
       </a-entity>
+
+       <a-sound src="https://cdn.aframe.io/basic-guide/audio/backgroundnoise.wav" autoplay="true"
+    position="-3 1 -4"></a-sound>
     </a-scene>
   </body>
 </html>
