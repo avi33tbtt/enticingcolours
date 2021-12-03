@@ -37,6 +37,20 @@
         -->
         <img id="karigurashi" src="./a4.jpg" crossorigin="anonymous"/>
         <img id="karigurashiPoster" src="./a44.jpg" crossorigin="anonymous"/>
+
+
+
+<img id="i1" src="./l1.jpg" crossorigin="anonymous"/>
+        <img id="p1" src="./l11.jpg" crossorigin="anonymous"/>
+
+        <img id="i2" src="./l2.jpg" crossorigin="anonymous"/>
+        <img id="p2" src="./l22.jpg" crossorigin="anonymous"/>
+
+        <img id="i3" src="./l3.jpg" crossorigin="anonymous"/>
+        <img id="p3" src="./l33.jpg" crossorigin="anonymous"/>
+
+
+
         <a-mixin
           id="frame"
           geometry="primitive: plane; width: 0.5783552; height: 0.8192"
@@ -96,6 +110,21 @@
           <a-entity id="ponyoButton" position="0.8 0 0" mixin="frame" class="raycastable menu-button">
             <a-entity material="src: #ponyoPoster" mixin="poster"></a-entity>
           </a-entity>
+
+          <a-entity id="kazetachinuButton" position="-16 0 0" mixin="frame" class="raycastable menu-button">
+            <a-entity material="src: #p1" mixin="poster"></a-entity>
+          </a-entity>
+
+
+<a-entity id="kazetachinuButton" position="-24 0 0" mixin="frame" class="raycastable menu-button">
+            <a-entity material="src: #p2" mixin="poster"></a-entity>
+          </a-entity>
+
+
+<a-entity id="kazetachinuButton" position="16 0 0" mixin="frame" class="raycastable menu-button">
+            <a-entity material="src: #p3" mixin="poster"></a-entity>
+          </a-entity>
+
         </a-entity>
 
         <!-- Info panel of the selected movie. -->
