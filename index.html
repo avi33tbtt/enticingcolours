@@ -20,8 +20,8 @@
       <a-assets>
         <a-asset-item id="messageText" src="message.html"></a-asset-item>
         <!--
-          Image source: http://www.ghibli.jp/works/kazetachinu/#frame&gid=1&pid=1
-          Image author: Studio Ghibli
+            Image source: http://www.ghibli.jp/works/kazetachinu/#frame&gid=1&pid=1
+        Image author: Studio Ghibli
         -->
         <img id="kazetachinu" src="https://cdn.aframe.io/examples/ui/kazetachinu.jpg" crossorigin="anonymous"/>
         <img id="kazetachinuPoster" src="https://cdn.aframe.io/examples/ui/kazetachinuPoster.jpg" crossorigin="anonymous"/>
@@ -70,11 +70,11 @@
 
       <a-entity
         position="0 1.6 0"
-        camera look-controls="magicWindowTrackingEnabled: false; touchEnabled: false; mouseEnabled: false">
+        camera look-controls="magicWindowTrackingEnabled: true; touchEnabled: true; mouseEnabled: true">
         <a-entity
           id="fadeBackground"
           geometry="primitive: sphere; radius: 2.5"
-          material="color: black; side: back; shader: flat; transparent: true; opacity: 0.6" visible="true">
+          material="color: black; side: back; shader: flat; transparent: true; opacity: 0.6" visible="false">
         </a-entity>
       </a-entity>
 
