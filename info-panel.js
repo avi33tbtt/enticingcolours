@@ -24,19 +24,19 @@ AFRAME.registerComponent('info-panel', {
         imgEl: document.querySelector('#ponyoMovieImage'),
         description: 'It is the eighth film Miyazaki directed for Studio Ghibli, and his tenth overall. The film tells the story of Ponyo (Nara), a goldfish who escapes from the ocean and is rescued by a five-year-old human boy, Sōsuke (Doi) after she is washed ashore while trapped in a glass jar.'
       },
-      kazetachinuButton1: {
+      b1: {
         title: 'The Wind Rises (2013)',
-        imgEl: document.querySelector('#kazetachinuMovieImage'),
+        imgEl: document.querySelector('#mi1'),
         description: 'The Wind Rises is a fictionalised biographical film of Jiro Horikoshi (1903, 1982), designer of the Mitsubishi A5M fighter aircraft and its successor, the Mitsubishi A6M Zero, used by the Empire of Japan during World War II. The film is adapted from Miyazaki\'s manga of the same name, which was in turn loosely based on both the 1937 novel The Wind Has Risen by Tatsuo Hori and the life of Jiro Horikoshi.'
       },
-      kazetachinuButton2: {
+      b2: {
         title: 'The Wind Rises (2013)',
-        imgEl: document.querySelector('#kazetachinuMovieImage'),
+        imgEl: document.querySelector('#mi2'),
         description: 'The Wind Rises is a fictionalised biographical film of Jiro Horikoshi (1903, 1982), designer of the Mitsubishi A5M fighter aircraft and its successor, the Mitsubishi A6M Zero, used by the Empire of Japan during World War II. The film is adapted from Miyazaki\'s manga of the same name, which was in turn loosely based on both the 1937 novel The Wind Has Risen by Tatsuo Hori and the life of Jiro Horikoshi.'
       },
-      kazetachinuButton3: {
+      b33: {
         title: 'The Wind Rises (2013)',
-        imgEl: document.querySelector('#kazetachinuMovieImage'),
+        imgEl: document.querySelector('#mi3'),
         description: 'The Wind Rises is a fictionalised biographical film of Jiro Horikoshi (1903, 1982), designer of the Mitsubishi A5M fighter aircraft and its successor, the Mitsubishi A6M Zero, used by the Empire of Japan during World War II. The film is adapted from Miyazaki\'s manga of the same name, which was in turn loosely based on both the 1937 novel The Wind Has Risen by Tatsuo Hori and the life of Jiro Horikoshi.'
       }
     };
